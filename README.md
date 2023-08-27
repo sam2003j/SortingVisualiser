@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Sorting Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Sorting Visualizer project documentation! You can check this website live on [SORTING_VISUALISER](https://sortingvisualizer20.netlify.app/).
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- Introduction
+- Getting Started
+- Usage
+- Sorting Algorithms
+- CSS Styling
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## INTRODUCTION
+The Sorting Visualizer project is a React application that provides a visual representation of various sorting algorithms. You can use this tool to visualize how different sorting algorithms work and understand their sorting mechanisms.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+### Prerequisites
+Before you begin, ensure you have the following installed:
+- Node.js (at least version 12.x)
+- npm or yarn
+### Installation
+- Clone this repository
+```markdown
+git clone https://github.com/your-username/sorting-visualizer.git
+```
+- Navigate to the project directory:
+```markdown
+cd sorting-visualizer
+```
+- Instal dependencies
+```markdown
+npm install
+```
+## Usage
+### Components
+The main component of the application is the SortingVisualizer component. This component renders an array of bars that represent the data to be sorted. Buttons are provided to trigger various sorting algorithms.
 
-### `npm test`
+### Methods
+- resetArray(): Generates a new random array of values.
+- mergeSort(): Initiates the merge sort visualization.
+- quickSort(): Initiates the quick sort visualization.
+- heapSort(): Initiates the heap sort visualization.
+- bubbleSort(): Initiates the bubble sort visualization.
+- selectionSort(): Initiates the selection sort visualization.
+- insertionSort(): Initiates the insertion sort visualization.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sorting Algorithms
+- Merge Sort: The merge sort algorithm divides the array into smaller subarrays, sorts them, and then merges them back together.
+- Quick Sort: The quick sort algorithm partitions the array into two subarrays, recursively sorts them, and combines them.
+- Heap Sort: The heap sort algorithm treats the array as a binary heap and repeatedly extracts the maximum element.
+- Bubble Sort: The bubble sort algorithm repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+- Selection Sort: The selection sort algorithm repeatedly selects the smallest (or largest) element from the unsorted part of the array and places it into the sorted part.
+- Insertion Sort: The insertion sort algorithm builds the final sorted array one item at a time by inserting elements in their correct positions.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## CSS Styling
+The CSS styling for the application is defined in the SortingVisualizer.css file. It includes styling for the array bars and buttons used in the visualization.
