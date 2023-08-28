@@ -22,7 +22,7 @@ Before you begin, ensure you have the following installed:
 ### Installation
 - Clone this repository
 ```markdown
-git clone https://github.com/your-username/sorting-visualizer.git
+git clone https://github.com/sam2003j/sorting-visualizer.git
 ```
 - Navigate to the project directory:
 ```markdown
